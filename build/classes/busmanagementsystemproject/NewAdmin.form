@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
+  <Properties>
+    <Property name="closable" type="boolean" value="true"/>
+    <Property name="maximizable" type="boolean" value="true"/>
+    <Property name="resizable" type="boolean" value="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace pref="626" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="label4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="576" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="addbtn" min="-2" pref="81" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="644" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="label2" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="label1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="label3" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="usernameTF" min="-2" pref="143" max="-2" attributes="0"/>
+                          <Component id="nameTF" min="-2" pref="143" max="-2" attributes="0"/>
+                          <Component id="passwordTF" min="-2" pref="143" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="551" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="83" max="-2" attributes="0"/>
+              <Component id="label4" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="label3" min="-2" max="-2" attributes="0"/>
+                  <Component id="nameTF" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="label1" min="-2" max="-2" attributes="0"/>
+                  <Component id="usernameTF" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="passwordTF" min="-2" max="-2" attributes="0"/>
+                  <Component id="label2" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+              <Component id="addbtn" min="-2" pref="41" max="-2" attributes="0"/>
+              <EmptySpace pref="197" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="java.awt.Label" name="label1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="SimSun" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Username"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="label2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="SimSun" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Password"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.TextField" name="nameTF">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="SimSun" size="18" style="1"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="java.awt.TextField" name="passwordTF">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="SimSun" size="18" style="1"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="label4">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Sanskrit Text" size="36" style="1"/>
+        </Property>
+        <Property name="name" type="java.lang.String" value="Delete Bus Details" noResource="true"/>
+        <Property name="text" type="java.lang.String" value="Add Admin"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Button" name="addbtn">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="SimSun" size="18" style="1"/>
+        </Property>
+        <Property name="label" type="java.lang.String" value="Add"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="addbtnActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="java.awt.Label" name="label3">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="SimSun" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Name"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.TextField" name="usernameTF">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="SimSun" size="18" style="1"/>
+        </Property>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
